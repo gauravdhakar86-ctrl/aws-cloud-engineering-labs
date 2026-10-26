@@ -1,0 +1,14 @@
+# Never commit secrets or local credentials
+*.pem
+*.ppk
+.env
+.env.*
+.aws/
+credentials
+config.local
+
+# Editor / operating system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
